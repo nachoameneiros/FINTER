@@ -542,10 +542,15 @@ namespace FINTER
             radio_lagrange.Enabled = false;
             radio_newgrepro.Enabled = false;
             radio_newgrereg.Enabled = false;
+            radio_lagrange.Checked = false;
+            radio_newgrepro.Checked = false;
+            radio_newgrereg.Checked = false;
             button7.Enabled = false;
             button5.Enabled = false;
             button6.Enabled = false;
             txt_k.Enabled = false;
+            txt_i.Visible = false;
+            lb_i.Visible = false;
             button1.Text = "Agregar Puntos";
         }
 
